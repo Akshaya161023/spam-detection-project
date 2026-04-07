@@ -1,0 +1,12 @@
+# Spam Detection Config
+
+# Confidence threshold to classify as spam (0.0 - 1.0)
+# Lower = more aggressive (catches more spam, more false positives)
+# Higher = more conservative (misses some spam, fewer false positives)
+threshold: 0.6
+
+# Number of emails to fetch from Gmail per refresh
+email_fetch_limit: 20
+
+# Auto-refresh interval in seconds (used in Streamlit)
+refresh_interval: 60
